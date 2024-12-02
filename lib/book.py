@@ -18,7 +18,6 @@ class Book:
         else: 
             print("Title must ")
     
-        
     #getter
     @property
     def page_count(self):
@@ -35,13 +34,7 @@ class Book:
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")
             
-# page_count = property(get_pagecount,)
-        
-            
-# book = Book("And Then There Were None", 272)
-# # book.page_count = "not an integer"
-# # book.title = "And Then There Were None"
-# print(book.pagecount())
+
 
 
         
